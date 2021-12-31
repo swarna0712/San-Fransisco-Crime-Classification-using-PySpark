@@ -15,8 +15,8 @@ Since the dataset provided is already clean, there are no missing values. We use
 We then splitted the Dates column into Day, month , year, hour, minute and second.
 We have also removed Resolution and descript columns since they are not provided in the test dataset.
 
-We then tried to find the correlation between the features and the target column.
-We did both the Pearson and Spearman correlation and obtained the following graphs as outputs.
+We found the correlation between the features and the target column.
+We implemented both the Pearson and Spearman correlation and obtained the following graphs as outputs.
 We have dropped Address, seconds and month as they aren't related that much to the category of the crime committed.
 
 ### Surface Level Implementation 
