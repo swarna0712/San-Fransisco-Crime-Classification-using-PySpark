@@ -24,13 +24,13 @@ We have dropped Address, seconds and month as they aren't related that much to t
 Our goal is to develop (at least 3) a model that is trained incrementally and  accurately identifies the type of  crime in the test dataset. 
 We used MultiLayerPerceptron, Multinomial NaiveBayes and Stochastic Gradient Descent. We partially fit each of these models on each batch obtained while streaming. 
 
-- **MultiLayerPerceptron** 
+**MultiLayerPerceptron** 
 - This model uses a neural network that learns the relationship between linear and non-linear data. 
 
-- **Multinomial NaiveBayes** 
+**Multinomial NaiveBayes** 
 - The classifier is suitable for classification with discrete features.
 
-- **Stochastic Gradient Descent** 
+**Stochastic Gradient Descent** 
 -  It implements a plain stochastic gradient descent learning routine which supports different loss functions and penalties for classification. We have used “hinge” as loss function which supports linear SVM. 
 
 
